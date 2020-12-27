@@ -1,0 +1,150 @@
+header {
+    height: 100px;
+}
+
+.logo {
+    display: block;
+    float: left;
+    margin: 2% 20% 0% 20%;
+}
+
+.logo>a {
+    text-decoration: none;
+    display: block;
+    font-size: 25pt;
+    font-family: Georgia;
+    color: #545454;
+}
+
+.nav {
+    margin-top: 2%;
+    font-size: 11pt;
+    float: left;
+}
+
+.nav>ul>li {
+    margin: 0 29px 0px 18px;
+    color: #545454;
+    display: inline-block;
+}
+
+.nav>ul>li>a {
+    background-image: linear-gradient(#f1cdb3 50%, #f1cdb3 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 .063em, 100% .063em;
+    padding-bottom: 2%;
+    transition: background-size .6s;
+    text-decoration: none;
+    color: #545454;
+}
+
+.nav>ul>li>a:hover {
+    color: #292929;
+    background-size: 100% .063em, 100% .063em;
+    background-position: left bottom;
+}
+
+footer {
+    padding: 0;
+    height: 290px;
+    background-image: url(image/back_bottom.png);
+    background-size: 100%;
+}
+
+.Contacts {
+    float: left;
+    margin: 0 0 0 20%;
+}
+
+.addres {
+    width: 300px;
+    float: left;
+    margin: 0 0 0 10%;
+}
+
+.Contacts>h3,
+.addres>h3 {
+    letter-spacing: 1.4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #ffffff;
+    line-height: 150%;
+}
+
+.email>img,
+.addres1>img {
+    margin-right: 7%;
+    float: left;
+}
+
+.email>p,
+.addres1>p {
+    letter-spacing: 1.7px;
+    color: #f1cdb3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+
+.phone,
+.addres2 {
+    padding: 2%;
+}
+
+.phone>img,
+.addres2>img {
+    margin-right: 9%;
+    margin-top: 5%;
+    margin-left: -2%;
+    float: left;
+}
+
+.phone>p,
+.addres2>p {
+    letter-spacing: 1.7px;
+    color: #f1cdb3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+
+section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f6f6f6;
+}
+
+section>ul {
+    text-align: center;
+}
+
+section>ul>li {
+    border-radius: 24px;
+    margin-left: 2%;
+    padding-bottom: 2%;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+}
+
+p {
+    color: #545454;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+    color: #545454;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 24px;
+    padding: 4% 20%;
+    background-color: #ffffff;
+    border-color: #f1cdb3;
+}
+
+.h32 {
+    margin-top: -1%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #545454;
+    line-height: 150%;
+}
